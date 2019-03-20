@@ -1,8 +1,9 @@
-// var table = document.getElementById('myTable');
-// var cell = document.getElementsByClassName('cell').rows;
+// Click event on each cell
 
 function clickHandler() {
   console.log('clicked');
+  var cell = document.querySelectorAll('td');
+  cell.forEach((cell) => cell.innerHTML = "X")
 }
 
 document.querySelectorAll('#myTable td').forEach(element =>
