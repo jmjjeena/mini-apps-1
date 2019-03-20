@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "react": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch",
+    "react": "babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch | live-server",
     "start": "nodemon server.js"
   },
   "author": "",
