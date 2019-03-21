@@ -23,7 +23,7 @@ class App extends React.Component {
             <h1>PROCEED TO CHECKOUT</h1>
           </div>
           <div>
-            <input onSubmit ={this.handleCheckout}
+            <input onClick ={this.handleCheckout}
               className="checkout-btn"
               type="button"
               value="Checkout"
