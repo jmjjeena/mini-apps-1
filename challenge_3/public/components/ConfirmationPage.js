@@ -1,0 +1,10 @@
+var Confirmation = function () {
+  return React.createElement("div", null, React.createElement("form", null, React.createElement("div", null, React.createElement("h1", null, "Details Summary")), React.createElement("div", null, React.createElement("input", {
+    className: "purchase-btn",
+    type: "button",
+    value: "Purchase"
+  }))));
+};
+
+export default Confirmation;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9jb21wb25lbnRzL0NvbmZpcm1hdGlvblBhZ2UuanN4Il0sIm5hbWVzIjpbIkNvbmZpcm1hdGlvbiJdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSUEsWUFBWSxHQUFHLFlBQVc7QUFDNUIsU0FDRSxpQ0FDRSxrQ0FDSSxpQ0FDRSxrREFERixDQURKLEVBSUksaUNBQ0U7QUFDRSxJQUFBLFNBQVMsRUFBQyxjQURaO0FBRUUsSUFBQSxJQUFJLEVBQUMsUUFGUDtBQUdFLElBQUEsS0FBSyxFQUFDO0FBSFIsSUFERixDQUpKLENBREYsQ0FERjtBQWdCRCxDQWpCRDs7QUFtQkEsZUFBZUEsWUFBZiIsInNvdXJjZXNDb250ZW50IjpbInZhciBDb25maXJtYXRpb24gPSBmdW5jdGlvbigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGZvcm0+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoMT5EZXRhaWxzIFN1bW1hcnk8L2gxPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8aW5wdXRcbiAgICAgICAgICAgICAgY2xhc3NOYW1lPVwicHVyY2hhc2UtYnRuXCJcbiAgICAgICAgICAgICAgdHlwZT1cImJ1dHRvblwiXG4gICAgICAgICAgICAgIHZhbHVlPVwiUHVyY2hhc2VcIlxuICAgICAgICAgICAgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9mb3JtPlxuICAgIDwvZGl2PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbmZpcm1hdGlvbjsiXX0=
