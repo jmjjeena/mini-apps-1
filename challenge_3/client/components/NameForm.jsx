@@ -1,6 +1,7 @@
 var NameForm  = function () {
   return(
     <div>
+      <h1>Account Information</h1>
       <form>
         <p>
           <label>Full Name

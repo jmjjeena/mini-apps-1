@@ -1,9 +1,9 @@
-var Confirmation = function() {
+var ConfirmationForm = function() {
   return (
     <div>
       <form>
           <div>
-            <h1>Details Summary</h1>
+            <h1>Finish Payment</h1>
           </div>
           <div>
             <input
@@ -17,4 +17,4 @@ var Confirmation = function() {
   )
 }
 
-export default Confirmation;
+export default ConfirmationForm;

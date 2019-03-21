@@ -1,21 +1,27 @@
 import NameForm from './NameForm.js'
 import AddressForm from './AddressForm.js'
 import PaymentForm from './PaymentForm.js'
+import ConfirmationForm  from './ConfirmationForm';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {
+      currentPage = undefined,
+    };
 
-    this.handleCheckout = this.handleCheckout.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleCheckout(e) {
-    alert('Proceed', this.state.value)
-    e.preventDefault();
+  handleClick(currentPage) {
+    this.setState({currentPage: currentPage})
+    console.log('page:' currentpage)
   }
 
   render () {
+    if(this.state.currentPage === 0) {
+      return (<Check)
+    }
     return (
       <div>
         <form>
@@ -40,7 +46,7 @@ class App extends React.Component {
           <PaymentForm />
         </div>
         <div>
-          {/* <Confirmation /> */}
+          <ConfirmationForm />
         </div>
       </div>
     )
