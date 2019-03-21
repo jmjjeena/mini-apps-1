@@ -4,7 +4,7 @@ var CheckOutForm = function(props) {
       <div>
         <h1>PROCEED TO CHECKOUT</h1>
       </div>
-      <button className="checkout-btn" data-next="NameForm" onClick={props.handleClick}>
+      <button data-next="NameForm" className="checkout-btn" onClick={props.handleClick}>
         Check out
       </button>
     </div>

@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: "NameForm"
+      currentPage: ""
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -31,11 +31,13 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        {this.state.currentPage === "CheckoutForm" && <CheckOutForm onClick = {this.handleClick}/>}
-        { this.state.currentPage === "NameForm" && <NameForm onClick = {this.handleClick}/> }
-        { this.state.currentPage === "AddressForm" && <AddressForm onClick = {this.handleClick}/> }
-        { this.state.currentPage === "PaymentForm" && <PaymentForm onClick = {this.handleClick}/> }
-        { this.state.currentPage === "ConfirmationForm" && <ConfirmationForm onClick = {this.handleClick}/> }
+        <h1>Happy Shopping!</h1>
+        {this.state.currentPage === "" && <button data-next="CheckOutForm" onClick ={this.handleClick}>Make Payment</button> }
+        {this.state.currentPage === "CheckOutForm" && <CheckOutForm handleClick = {this.handleClick}/> }
+        {this.state.currentPage === "NameForm" && <NameForm handleClick = {this.handleClick}/> }
+        {this.state.currentPage === "AddressForm" && <AddressForm handleClick = {this.handleClick}/> }
+        {this.state.currentPage === "PaymentForm" && <PaymentForm handleClick= {this.handleClick}/> }
+        {this.state.currentPage === "ConfirmationForm" && <ConfirmationForm handleClick = {this.handleClick}/> }
       </div>
     )
   }

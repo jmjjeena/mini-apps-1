@@ -1,4 +1,4 @@
-var PaymentForm = function() {
+var PaymentForm = function(props) {
   return (
     <div>
       <h1>Card Information</h1>

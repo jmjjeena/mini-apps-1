@@ -1,4 +1,4 @@
-var AddressForm = function () {
+var AddressForm = function (props) {
   return(
     <div>
       <h1>Billing Address</h1>
