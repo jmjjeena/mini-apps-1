@@ -1,10 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Board from './Board.jsx'
+import Square from './Square.jsx'
 
 class App  extends React.Component {
+  constructor(props) {
+    super(props);
+      this.state= {}
+    }
+
   render() {
     return (
-      <h1>Hello,world</h1>
+      <div className = "game">
+        <h1>CONNECT4</h1>
+        <div>
+          <Board />
+        </div>
+      </div>
     )
   }
 }
