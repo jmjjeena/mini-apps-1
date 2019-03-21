@@ -48,7 +48,7 @@ var PaymentForm = function() {
           </label>
         </p>
         <div>
-          <button>Next</button>
+          <button data-next="ConfirmationForm" onClick={props.handleClick}>Next</button>
         </div>
     </form>
   </div>

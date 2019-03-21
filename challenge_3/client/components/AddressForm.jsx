@@ -69,7 +69,7 @@ var AddressForm = function () {
           </label>
         </p>
         <div>
-          <button>Next</button>
+          <button data-next="PaymentForm" onClick={props.handleClick}>Next</button>
         </div>
     </form>
   </div>

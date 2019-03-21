@@ -1,4 +1,4 @@
-var NameForm  = function () {
+var NameForm  = function (props) {
   return(
     <div>
       <h1>Account Information</h1>
@@ -35,7 +35,7 @@ var NameForm  = function () {
           </label>
         </p>
         <div>
-          <button>Next</button>
+          <button data-next="AddressForm" onClick={props.handleClick}>Next</button>
         </div>
       </form>
     </div>
