@@ -1,6 +1,6 @@
 import React from 'react';
 import Board from './Board.jsx'
-import Square from './Square.jsx'
+// import Square from './Square.jsx'
 
 class App  extends React.Component {
   constructor(props) {

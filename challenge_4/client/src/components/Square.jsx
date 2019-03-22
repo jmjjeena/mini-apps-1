@@ -7,8 +7,8 @@ class Square extends React.Component {
 
   render() {
     return (
-      <div> 
-        <button id={this.props.data[0]}/>
+      <div>
+        <button id={this.props.data[0]} handleClick={() => this.props.onClick(0)}/>
         <button id={this.props.data[1]}/>
         <button id={this.props.data[2]}/>
         <button id={this.props.data[3]}/>
